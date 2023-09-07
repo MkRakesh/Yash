@@ -15,6 +15,8 @@ if input1 != 0 :
     # Use the predict method to make forecasts
     
     forecast_values = fit.predict(start=0, end=input1 - 1)
+    plt.figure(figsize=(5,3)
+    plt.ylabel('Forecast')
     plt.grid()
     forecast_values.plot()
     st.write('Demand Forecast')
