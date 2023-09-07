@@ -16,10 +16,10 @@ if input1 != 0 :
     
     forecast_values = fit.predict(start=0, end=input1 - 1)
     plt.figure(figsize=(5,3))
-    plt.plot(forecast_values,linewidth=.8,color='magenta')
+    plt.plot(forecast_values,linewidth=.8,color='darkmagenta')
     plt.ylabel('Forecast',fontsize=9)
-    plt.xticks(fontsize=9,rotation=45, ha="right",color='magenta')
-    plt.yticks(fontsize=9,color='magenta')
+    plt.xticks(fontsize=9,rotation=45, ha="right",color='darkmagenta')
+    plt.yticks(fontsize=9,color='darkmagenta')
     plt.grid()
     st.write('Demand Forecast')
     
