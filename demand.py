@@ -16,7 +16,7 @@ if input1 != 0 :
     
     forecast_values = fit.predict(start=0, end=input1 - 1)
     plt.figure(figsize=(5,3))
-    plt.plot(forecast_values,linewidth=.8,color='deepskyblue')
+    plt.plot(forecast_values,linewidth=.8,color='fuchsia')
     plt.ylabel('Forecast',fontsize=9)
     plt.xticks(fontsize=9,rotation=45, ha="right",color='darkmagenta')
     plt.yticks(fontsize=9,color='darkmagenta')
