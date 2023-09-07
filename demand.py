@@ -16,6 +16,7 @@ if input1 != 0 :
     
     forecast_values = fit.predict(start=0, end=input1 - 1)
     plt.figure(figsize=(5,3)
+    plt.plot(forecast_values)
     plt.ylabel('Forecast')
     plt.grid()
     forecast_values.plot()
