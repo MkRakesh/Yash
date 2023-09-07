@@ -21,7 +21,7 @@ if input1 != 0 :
     plt.xlabel('YYYY-MM',fontsize=9)
     plt.xticks(fontsize=6,rotation=45, ha="right",color='darkmagenta')
     plt.yticks(fontsize=6,color='darkmagenta')
-    plt.legend(loc=best,fontsize=6)
+    plt.legend(loc=best)
     plt.grid()
     st.write('Demand Forecast')
     
