@@ -18,7 +18,7 @@ if input1 != 0 :
     plt.figure(figsize=(5,3))
     plt.plot(forecast_values,linewidth=.8)
     plt.ylabel('Forecast',fontsize=9)
-    plt.xticks(fontsize=9,rotation='vertical')
+    plt.xticks(fontsize=9,rotation=45, ha="right")
     plt.yticks(fontsize=9)
     plt.grid()
     st.write('Demand Forecast')
